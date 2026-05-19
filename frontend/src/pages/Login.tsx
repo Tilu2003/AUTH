@@ -39,7 +39,7 @@ export default function Login() {
   return (
     <div className="auth-page">
       <div className="auth-card">
-        <h2>Sign in</h2>
+        <h2>Login</h2>
         <p>Enter your email and password to continue</p>
 
         <form onSubmit={handleSubmit}>

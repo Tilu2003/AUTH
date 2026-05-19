@@ -35,7 +35,7 @@ export function loginUser(req, res) {
                         email: user.email,
                         postal_code: user.postal_code,
                     },
-                    process.env.JWT_SECRET || "kv-secret-891"
+                    process.env.JWT_SECRET 
                 );
 
                 res.json({ message: "Login successful", token: token });

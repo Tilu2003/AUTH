@@ -159,7 +159,7 @@ export default function Register() {
         </form>
 
         <div className="switch-link">
-          Already have an account? <Link to="/login">Sign in</Link>
+          Already have an account? <Link to="/login">Login</Link>
         </div>
       </div>
     </div>
