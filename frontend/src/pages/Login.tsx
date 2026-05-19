@@ -68,7 +68,7 @@ export default function Login() {
           {error && <p className="error-msg">{error}</p>}
 
           <button className="btn btn-blue" type="submit" disabled={loading}>
-            {loading ? 'Signing in...' : 'Sign in'}
+            {loading ? 'logging in...' : 'Login'}
           </button>
         </form>
 
